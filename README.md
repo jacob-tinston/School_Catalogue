@@ -17,7 +17,7 @@ It uses Object-Oriented-Programming and classes to create an online school catal
 * Javascript
 
 ## Status
-Project is: _in-progress_
+Project is: _finished_
 
 ## Contact
 Created by: Jacob  <br/>
