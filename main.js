@@ -41,4 +41,8 @@ class PrimarySchool extends School {
         this._level = 'primary';
         this._pickupPolicy = pickupPolicy;
     }
+
+    get pickupPolicy() {
+        return this._pickupPolicy;
+    }
 }
