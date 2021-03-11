@@ -58,4 +58,6 @@ class HighSchool extends School {
     get sportsTeams() {
         console.log(this._sportsTeams);
     }
-}
+};
+
+const lorraineHansbury = new PrimarySchool('Lorraine Hansbury', 514, 'Students must be picked up by a parent, guardian, or a family member over the age of 13.');
