@@ -26,6 +26,10 @@ class School {
     }
 
     quickFacts() {
-        console.log(`${this._name} educates ${this.numberOfStudents} students at the ${this._level} school level.`)
+        console.log(`${this._name} educates ${this.numberOfStudents} students at the ${this._level} school level.`);
+    }
+
+    static pickSubstituteTeacher(substituteTeachers) {
+        return substituteTeachers[Math.floor(Math.random() * (substituteTeachers.length - 1))]
     }
 };
