@@ -36,7 +36,7 @@ class School {
 
 class PrimarySchool extends School {
     constructor(name, numberOfStudents, pickupPolicy) {
-        super(name);
+        super(name)
         super(numberOfStudents);
         this._level = 'primary';
         this._pickupPolicy = pickupPolicy;
@@ -49,7 +49,7 @@ class PrimarySchool extends School {
 
 class HighSchool extends School {
     constructor(name, numberOfStudents, sportsTeams) {
-        super(name);
+        super(name)
         super(numberOfStudents);
         this._level = 'high';
         this._sportsTeams = sportsTeams;
@@ -61,3 +61,4 @@ class HighSchool extends School {
 };
 
 const lorraineHansbury = new PrimarySchool('Lorraine Hansbury', 514, 'Students must be picked up by a parent, guardian, or a family member over the age of 13.');
+lorraineHansbury.quickFacts();
